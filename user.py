@@ -12,3 +12,5 @@ if m.par(num):
     print('É par!')
 else:
     print('É impar!')
+# if ternario
+print('par' if m.par(num) else 'impar')
