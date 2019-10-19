@@ -23,3 +23,11 @@ def primo(num):
         return True
     else:
         return False
+
+# Par ou não
+def par(num):
+    if num%2 == 0:
+        return True
+    else:
+        return False
+    
