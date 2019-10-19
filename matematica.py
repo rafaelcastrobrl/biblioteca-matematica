@@ -1,10 +1,15 @@
 # fatorial
+# def fatorial(num):
+#     fat = 1
+#     while(num > 0):
+#         fat = fat * num
+#         num = num - 1
+#     return fat
 def fatorial(num):
-    fat = 1
-    while(num > 0):
-        fat = fat * num
-        num = num - 1
-    return fat
+    if num == 0 or num == 1:
+        return 1
+    else:
+        return num*fatorial(num - 1)
 
 # definir se o numero é primo ou não
 def primo(num):
