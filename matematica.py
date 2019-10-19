@@ -25,9 +25,12 @@ def primo(num):
         return False
 
 # Par ou não
+# def par(num):
+#     if num%2 == 0:
+#         return True
+#     else:
+#         return False
 def par(num):
-    if num%2 == 0:
-        return True
-    else:
-        return False
+    True if num%2 == 0 else False
+
     
