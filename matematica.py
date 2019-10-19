@@ -20,6 +20,6 @@ def primo(num):
             div = div + 1
         valor = valor + 1
     if div == 2:
-        print('É primo!')
+        return True
     else:
-        print('Não é primo!')
+        return False
