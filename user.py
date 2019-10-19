@@ -14,3 +14,4 @@ else:
     print('É impar!')
 # if ternario
 print('par' if m.par(num) else 'impar')
+print('Potencia Quadrada é {}:'.format(m.potquad(num)))

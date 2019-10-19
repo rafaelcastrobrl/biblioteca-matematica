@@ -33,4 +33,9 @@ def primo(num):
 def par(num):
     True if num%2 == 0 else False
 
+# POTENCIA
+def potquad(num):
+    return num**2
+
+
     
